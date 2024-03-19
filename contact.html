@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Sol de Angelis - Illustrator & Storyteller</title>
+  
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Imagen Top Logo -->
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <img src="img/COMP_Frases_y_logos/nombre_logo_2TR.png" alt="Sol de Angelis" class="logo">
+    </div>
+  </div>
+  
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md justify-content-center">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item"><a href="illustrationsandcommissions.html" class="nav-link">Illustrations and commissions</a></li>
+          <li class="nav-item"><a href="booksandstorytelling.html" class="nav-link">Books and storytelling</a></li>
+          <li class="nav-"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item active"><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Imagen centro -->
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <img src="img/título_web.jpg" alt="Contacto Sol de angelis" class="img-fluid-about" id="img1">
+      <!-- Agregar textos debajo de la imagen -->
+      <div>
+        <br>
+        <h2>Let's work together! Send me a message using the Form below.</h2>
+        <br>
+        <h2><i>¡Trabajemos juntos! Dejame un mensaje y pronto te responderé.</i></h2>
+        <br>
+      </div>
+    </div>
+  </div>
+
+  <!-- Form -->
+  <div class="contact-form">
+    <form action="https://formspree.io/f/mknavldr" method="POST">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+      </div>
+        <br>
+      <button type="submit" class="btn btn-primary" id="submit-btn">Send message</button>
+      <p id="thanks-msg" style="display: none;">Thank you for your message!</p>
+    </form>
+  </div>
+  
+
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <hr class="footer-line">
+        <div class="footer-icons">
+          <a href="https://www.instagram.com/sol.deangelis/" target="_blank"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-envelope"></i></a>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2024 Sol de Angelis</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Scripts -->
+<script src="js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
